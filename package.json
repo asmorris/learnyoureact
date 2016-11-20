@@ -1,0 +1,114 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "learnyoureact",
+        "scope": null,
+        "escapedName": "learnyoureact",
+        "name": "learnyoureact",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/asmorris/Desktop/workspace/javascriptProjects/learnyoureact"
+    ]
+  ],
+  "_from": "learnyoureact@latest",
+  "_id": "learnyoureact@0.11.6",
+  "_inCache": true,
+  "_location": "/learnyoureact",
+  "_nodeVersion": "4.2.2",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/learnyoureact-0.11.6.tgz_1463816207477_0.3896380397491157"
+  },
+  "_npmUser": {
+    "name": "kohei_takata",
+    "email": "kt.koheitakata@gmail.com"
+  },
+  "_npmVersion": "2.14.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "learnyoureact",
+    "scope": null,
+    "escapedName": "learnyoureact",
+    "name": "learnyoureact",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/learnyoureact/-/learnyoureact-0.11.6.tgz",
+  "_shasum": "734c313f240100ca6f66ab50cc6fa9ee33473bdd",
+  "_shrinkwrap": null,
+  "_spec": "learnyoureact",
+  "_where": "/Users/asmorris/Desktop/workspace/javascriptProjects/learnyoureact",
+  "author": {
+    "name": "Kohei TAKATA"
+  },
+  "bin": {
+    "learnyoureact": "./learnyoureact.js"
+  },
+  "bugs": {
+    "url": "https://github.com/kohei-takata/learnyoureact/issues"
+  },
+  "dependencies": {
+    "babel": "^5.8.23",
+    "babel-preset-es2015": "~6.1.18",
+    "babel-preset-react": "~6.1.18",
+    "babelify": "~7.2.0",
+    "bl": "~0.9.4",
+    "body-parser": "^1.12.4",
+    "browserify": "~10.1.3",
+    "colors-tmpl": "~1.0.0",
+    "express": "^4.14.0",
+    "express-react-views": "^0.9.0",
+    "hyperquest": "~1.2.0",
+    "js-beautify": "^1.5.10",
+    "react": "^0.14.8",
+    "react-dom": "^0.14.8",
+    "reactify": "~1.1.1",
+    "through2": "~0.6.5",
+    "workshopper-adventure": "~3.4.5",
+    "workshopper-boilerplate": "~1.1.0",
+    "workshopper-exercise": "~2.7.0",
+    "workshopper-wrappedexec": "~0.1.2"
+  },
+  "description": "Learn React.js and server side rendering!",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "734c313f240100ca6f66ab50cc6fa9ee33473bdd",
+    "tarball": "https://registry.npmjs.org/learnyoureact/-/learnyoureact-0.11.6.tgz"
+  },
+  "gitHead": "794f042f7e5adf9a826691dc3ea65fd09cde3a35",
+  "homepage": "https://github.com/kohei-takata/learnyoureact",
+  "keywords": [
+    "react",
+    "learn",
+    "tutorial",
+    "workshopper"
+  ],
+  "license": "MIT",
+  "main": "learnyoureact.js",
+  "maintainers": [
+    {
+      "name": "kohei_takata",
+      "email": "kt.koheitakata@gmail.com"
+    }
+  ],
+  "name": "learnyoureact",
+  "optionalDependencies": {},
+  "preferGlobal": true,
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kohei-takata/learnyoureact.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.11.6"
+}
