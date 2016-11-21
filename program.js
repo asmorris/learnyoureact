@@ -9,9 +9,13 @@ app.engine('jsx', require('express-react-views').createEngine({ transformViews: 
 require('babel/register')({
 	ignore: false
 })
+var shoppingDetail = process.argv[3];
+var haircutDetail = process.argv[4];
+
+var data = [{title: "Shopping", detail: shoppingDetail},{title: "Hair cut", detail: haircutDetail}];
 
 app.use('/', (req,res) => {
-	res.render('index', '')
+	res.render('index', {data: data})
 })
 
 app.listen(app.get('port'), () => {})
